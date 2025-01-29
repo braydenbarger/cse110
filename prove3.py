@@ -30,14 +30,14 @@ receipt = (f'''
             ----------------------------------------
             Date: {today}
             Time: {current_time}
-            QTY of Child Meals: {child_number} Child Meals Price: {child_total:.2f}
-            QTY of Adult Meals: {adult_number} Adult Meals Price: {adult_total:.2f}
-            Subtotal: {subtotal:.2f}
-            Tax: {tax:.2f}
-            Tip: {tip:.2f}
-            Total: {total:.2f}
-            Payment: {payment:.2f}
-            Change: {change:.2f}
+            QTY of Child Meals: {child_number} Child Meals Price: ${child_total:.2f}
+            QTY of Adult Meals: {adult_number} Adult Meals Price: ${adult_total:.2f}
+            Subtotal: ${subtotal:.2f}
+            Tax: ${tax:.2f}
+            Tip: ${tip:.2f}
+            Total: ${total:.2f}
+            Payment: ${payment:.2f}
+            Change: ${change:.2f}
 ''')
 
 print(receipt)
