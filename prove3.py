@@ -26,7 +26,7 @@ payment = float(input("What is the payment amount? "))
 change = payment - total
 print(f"Change: ${change:.2f}")
 
-reciept = (f'''
+receipt = (f'''
             ----------------------------------------
             Date: {today}
             Time: {current_time}
@@ -40,4 +40,4 @@ reciept = (f'''
             Change: {change:.2f}
 ''')
 
-print(reciept)
+print(receipt)
