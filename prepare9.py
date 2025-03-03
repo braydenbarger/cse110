@@ -6,7 +6,6 @@ while name != "end":
     if name != "end":
         friends.append(name)
 
-print()
 print("Your friends are:")
 
 for friend in friends:
